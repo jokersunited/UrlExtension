@@ -1,0 +1,13 @@
+{
+  "name": "URL Analyzer",
+  "version": "1.0",
+  "description": "Analyze your URLs to ensure that they aren't dangerous!",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "ui.html"
+    }
+}
